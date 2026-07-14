@@ -13,13 +13,13 @@ spec:
       project: roboshop
       purpose: rs-demo
       tier: frontend
-template:
-  metadata:
-     labels:
-       project: roboshop
-       purpose: rs-demo
-       tier: frontend    
-spec:
-  container:
-  - name: nginx
-    image: nginx
+  template:
+    metadata:
+      labels:
+        project: roboshop
+        purpose: rs-demo
+        tier: frontend    
+  spec:
+    container:
+    - name: nginx
+      image: nginx
