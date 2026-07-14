@@ -20,6 +20,6 @@ spec:
         purpose: rs-demo
         tier: frontend    
   spec:
-    container:
+    containers:
     - name: nginx
       image: nginx
